@@ -24,6 +24,7 @@ func main() {
 
 	// crawler
 	crawler := crawler.NewCrawler(url)
+	crawler.Start()
 	log.Debug(crawler)
 
 }
